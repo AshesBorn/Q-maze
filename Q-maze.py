@@ -1,7 +1,7 @@
 import numpy as np
 import random
 import time
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 # Configurações do ambiente
 LINHAS, COLUNAS = 10, 14
@@ -152,3 +152,4 @@ for passo in range(100):
     time.sleep(0.1)
 
 print("\nExecução finalizada.")
+
