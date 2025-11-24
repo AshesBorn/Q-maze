@@ -71,7 +71,7 @@ Incluir sensores ou percepção parcial
 
 Este projeto pode ser utilizado para fins acadêmicos ou experimentação pessoal.
 
-
+---
 
 📘 README (EN)
 Maze Navigation using Q-Learning
