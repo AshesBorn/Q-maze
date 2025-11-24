@@ -1,147 +1,81 @@
-##📘 README (PT-BR)
-Navegação em Labirinto com Q-Learning
+# 🇧🇷 README – Português (Brasil)
 
-Este projeto implementa um agente capaz de navegar em um labirinto 2D utilizando o algoritmo Q-Learning, considerando tanto ambientes estáticos quanto ambientes dinâmicos, que podem incluir:
+## 🧠 Navegação em Labirinto com Q-Learning
+Este projeto implementa um agente inteligente capaz de navegar em um labirinto 2D utilizando o algoritmo de Q-Learning. O ambiente inclui paredes fixas, NPCs móveis que se deslocam de forma aleatória e portas que alternam entre abertas e fechadas conforme o tempo, criando um cenário dinâmico e desafiador.
 
-NPCs móveis que se deslocam de forma imprevisível
+## 🎯 Objetivos do Projeto
+- Criar um ambiente de labirinto com elementos estáticos e dinâmicos.
+- Implementar Q-Learning para treinar um agente a encontrar a saída.
+- Avaliar o desempenho do agente em cenários estático, com NPCs e com portas dinâmicas.
+- Comparar as estratégias aprendidas.
+- Identificar limitações e sugerir melhorias futuras.
 
-Portas que se abrem e fecham em ciclos
+## 🧩 Funcionalidades
+- Grid 10x14 representado em matriz.
+- Portas com ciclos de abertura/fechamento.
+- NPCs móveis.
+- Política ε-greedy com decaimento.
+- Geração automática de gráficos.
+- Armazenamento dos resultados.
 
-Obstáculos fixos e paredes
-
-Estados compostos por posição e fase do ambiente
-
-O objetivo é treinar o agente para encontrar a saída do labirinto com o menor número possível de passos, aprendendo por tentativa e erro por meio de recompensas e penalidades.
-
-#🚀 Características do Projeto
-
-Ambiente desenvolvido em Python utilizando matriz 2D
-
-Agente treinado com Q-Learning (representação tabular)
-
-Três cenários de avaliação:
-
-Labirinto estático
-
-Labirinto com NPCs móveis
-
-Labirinto com portas dinâmicas
-
-Métricas analisadas: recompensa média, passos, taxa de sucesso
-
-Gráficos de desempenho e convergência
-
-Fácil adaptação para ambientes maiores ou outros tipos de agentes
-
-#🧠 Tecnologias Utilizadas
-
-Python 3
-
-NumPy
-
-Matplotlib
-
-Ambiente de execução: Google Colab / VS Code
-
-#▶️ Como Executar
-
-Instale as dependências:
-
+## 🔧 Como Executar
 pip install numpy matplotlib
-
-
-Execute o arquivo principal:
-
 python main.py
 
+## 📊 Resultados
+O sistema gera gráficos como:
+- Recompensa média por episódio  
+- Comparação entre cenários  
+- Convergência do aprendizado  
 
-Os gráficos e métricas serão salvos na pasta results/.
+## 🧭 Melhorias Futuras
+- Testar Deep Q-Learning  
+- Aumentar o tamanho do ambiente  
+- NPCs com comportamento mais complexo  
+- Introdução de visão parcial  
 
-#📌 Possíveis Extensões
-
-Substituir Q-Table por Deep Q-Learning
-
-Criar ambientes maiores e com mais dinâmica
-
-Adicionar múltiplos agentes
-
-Incluir sensores ou percepção parcial
-
-#📄 Licença
-
-Este projeto pode ser utilizado para fins acadêmicos ou experimentação pessoal.
+## 📚 Referências
+- Sutton & Barto (2018) – Reinforcement Learning: An Introduction  
+- Watkins (1989) – Learning from Delayed Rewards  
 
 ---
 
-##📘 README (EN)
-Maze Navigation using Q-Learning
+# 🇺🇸 README – English Version
 
-This project implements an intelligent agent capable of navigating a 2D maze using the Q-Learning reinforcement learning algorithm. The environment includes both static and dynamic elements such as:
+## 🧠 Maze Navigation with Q-Learning
+This project implements an intelligent agent capable of navigating a 2D maze using the Q-Learning algorithm. The environment includes fixed walls, randomly moving NPCs, and dynamic doors that open and close over time.
 
-Moving NPCs acting as unpredictable obstacles
+## 🎯 Project Goals
+- Build a maze with static and dynamic elements.
+- Train an agent using Q-Learning to reach the exit efficiently.
+- Evaluate the agent under static, NPC-based, and dynamic-door scenarios.
+- Compare learned strategies.
+- Identify limitations and propose improvements.
 
-Doors that open and close in timed cycles
+## 🧩 Features
+- 10x14 matrix-based grid  
+- Dynamic doors with time cycles  
+- Random NPC movement  
+- ε-greedy policy with decay  
+- Automatic performance graphs  
+- Result logging and storage  
 
-Fixed walls and barriers
-
-State representation including agent position and environment phase
-
-The goal is to train the agent to reach the maze exit using the fewest possible steps, learning through trial and error based on rewards and penalties.
-
-#🚀 Project Features
-
-2D grid environment implemented in Python
-
-Q-Learning agent with tabular representation
-
-Three evaluation scenarios:
-
-Static maze
-
-Maze with moving NPCs
-
-Maze with dynamic doors
-
-Performance metrics: average reward, number of steps, success rate
-
-Training and convergence plots
-
-Modular structure for easy extension
-
-#🧠 Technologies
-
-Python 3
-
-NumPy
-
-Matplotlib
-
-Development environment: Google Colab / VS Code
-
-#▶️ How to Run
-
-Install dependencies:
-
+## 🔧 How to Run
 pip install numpy matplotlib
-
-
-Run the main file:
-
 python main.py
 
+## 📊 Results
+Generated figures include:
+- Average reward per episode  
+- Scenario comparison  
+- Learning convergence  
 
-Output graphs and performance logs will be saved in the results/ folder.
+## 🧭 Future Work
+- Apply Deep Q-Learning  
+- Expand maze dimensions  
+- More advanced NPC behaviors  
+- Add partial observability  
 
-#📌 Potential Extensions
-
-Replace Q-Table with Deep Q-Learning
-
-Expand to larger and more complex mazes
-
-Add multi-agent interactions
-
-Include partial observability or sensor models
-
-#📄 License
-
-This project is free for academic use and experimentation.
+## 📚 References
+- Sutton & Barto (2018) – Reinforcement Learning: An Introduction  
+- Watkins (1989) – Learning from Delayed Rewards  
