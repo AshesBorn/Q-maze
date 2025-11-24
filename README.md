@@ -43,19 +43,6 @@ Matplotlib
 
 Ambiente de execução: Google Colab / VS Code
 
-📂 Estrutura do Repositório
-├── src/
-│   ├── environment.py   # Lógica do ambiente e dos estados dinâmicos
-│   ├── agent.py         # Implementação do Q-Learning
-│   ├── training.py      # Loop de treinamento e avaliação
-│   └── utils.py         # Funções auxiliares
-├── results/
-│   ├── convergencia.png
-│   ├── desempenho.png
-│   └── tabela_resultados.csv
-├── README.md
-└── main.py
-
 ▶️ Como Executar
 
 Instale as dependências:
@@ -83,6 +70,8 @@ Incluir sensores ou percepção parcial
 📄 Licença
 
 Este projeto pode ser utilizado para fins acadêmicos ou experimentação pessoal.
+
+
 
 📘 README (EN)
 Maze Navigation using Q-Learning
@@ -128,19 +117,6 @@ NumPy
 Matplotlib
 
 Development environment: Google Colab / VS Code
-
-📂 Repository Structure
-├── src/
-│   ├── environment.py   # Environment logic and dynamic behavior
-│   ├── agent.py         # Q-Learning implementation
-│   ├── training.py      # Training and evaluation loop
-│   └── utils.py         # Helper functions
-├── results/
-│   ├── convergencia.png
-│   ├── desempenho.png
-│   └── table_results.csv
-├── README.md
-└── main.py
 
 ▶️ How to Run
 
